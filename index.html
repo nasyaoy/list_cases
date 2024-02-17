@@ -4,19 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>список дел</title>
     <link rel="stylesheet" href="css/style.css">
+    <title>список дел</title>
 </head>
 
 <body>
-    <div class="wrapper">
-        <div class="content">
-            <p class="text">Мой список дел</p>
-            <input type="text" id="nameInput" placeholder="Что сделать...">
-            <button id="myButton">Добавить</button>
+
+    <div class="content">
+        <h2 class="text">список дел</h2>
+        <div class="cases">
+            <input type="text" id="nameInput" class="name_input" placeholder="..">
+            <button id="myButton">добавить</button>
         </div>
-        <ul id="list"></ul>
+        <input type="text" id="searchInput" class="search_input">
     </div>
+    <ul class="list">
+        <li class="item"></li>
+    </ul>
 
     <script src="js/script.js"></script>
 </body>

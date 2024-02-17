@@ -1,80 +1,63 @@
 * {
     box-sizing: border-box;
 }
-
-html,
-body {
-    height: 100%;
-}
-
-body {
-    margin: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0;
-}
-
-ul>li {
+li {
     list-style: none;
 }
 
-.wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+body{
+    margin: 0;
+    height: 100%;
 }
 
-.content {
-    background-color: crimson;
-    width: 1000px;
+.content{
+    background-color: rgb(80, 184, 146);
+    margin-left: 310px;
     height: 150px;
-    padding-top: 15px;
-}
-
-.text {
-    margin: 0;
-    padding: 10px;
-    padding-left: 400px;
-    font-size: 22px;
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-ul {
-    padding: 0;
-    margin: 0;
-}
-
-.item {
-    background-color: rgb(245, 245, 245);
     width: 1000px;
-    padding: 3px 10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(68, 68, 68);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input{
+    height: 25px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(228, 255, 245);
+}
+
+.name_input {
+    margin-bottom: 5px;
+}
+
+#myButton {
+    height: 25px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(177, 220, 203);
 }
 
 .item button {
-    background-color: rgb(245, 245, 245);
-    color: rgb(221, 221, 221);
+    border: none;
+    background:none;
 }
 
-input {
-    margin-left: 90px;
-    width: 70%;
-    height: 30px;
-    background-color: rgb(231, 231, 231);
-    border: 0px;
+.text {
+    color: rgb(57, 74, 67);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-button {
-    height: 30px;
-    border: 0px;
-    background-color: rgb(209, 209, 209);
+.item {
+    background-color: rgb(205, 255, 237);
+}
+
+.item:nth-child(odd) {
+background-color: rgb(181, 232, 214);
+}
+
+.list {
+    width: 1000px;
+    margin-top: 0;
 }
